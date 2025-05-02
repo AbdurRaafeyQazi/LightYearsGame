@@ -17,6 +17,3 @@
    ```bash
    git clone https://github.com/YourUser/LightYearsGame.git
    cd LightYearsGame
-g++ -std=c++17 src/*.cpp -I/path/to/SFML/include \
-    -L/path/to/SFML/lib -lsfml-graphics -lsfml-window -lsfml-system \
-    -o LightYearsGame
